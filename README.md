@@ -1,10 +1,23 @@
 # U.STRA Framework
+
 GSITM에서 운영 중인 U.STRA Framework 공식 Release Repository 입니다.
+
+## 공식 가이드 점검 안내
+
+다음의 일정으로 공식 가이드를 점검 중에 있습니다. 
+
+- 기간 : 2024-01-31 ~ 2024-02-08
+- 대상 : U.STRA 프레임워크 공식 가이드 서비스 전체
+
+문의 사항은 [이슈](https://github.com/ustraframework/ustraframework/issues)로 등록해 주시기 바랍니다.
+
+<!--
 - 공식 가이드 사이트 : http://guide.ustraframework.kro.kr/
+-->
 
-# Release Note (Java)
+## Release Note (Java)
 
-## 2.0.41 RELEASE (**2021/10/6**)
+### 2.0.41 RELEASE (**2021/10/6**)
 
 웹 소켓 기능 확장
 
@@ -28,17 +41,17 @@ PaginationRequest Order null일 경우 오류 발생 패치
 - Manager 변경 시 동작 추가
 
 
-# Release Note (Node)
+## Release Note (Node)
 
-## 2.0.35-stable (2021/10/6)
+### 2.0.35-stable (2021/10/6)
 
 백오피스 엑셀 다운로드 페이징 동기화 처리
 
 UrlBuiler 기능 추가
 
 
-# Release Note (Nexacro)
-## 1.0.3 (2021/10/07)
+## Release Note (Nexacro)
+### 1.0.3 (2021/10/07)
 
 그리드 연계 기능 추가
 
