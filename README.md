@@ -2,18 +2,27 @@
 
 GSITM에서 운영 중인 U.STRA Framework 공식 Release Repository 입니다.
 
-## 공식 가이드 점검 안내
+## 공식 가이드 안내
 
-다음의 일정으로 공식 가이드를 점검 중에 있습니다. 
+공식 가이드 사이트 : http://guide.ustraframework.kro.kr/
 
-- 기간 : 2024-01-31 ~ 2024-02-08
-- 대상 : U.STRA 프레임워크 공식 가이드 서비스 전체
+현재 공식 가이드는 일부 기능을 제한적으로 운영 중에 있습니다. 다음 기능이 제한됩니다.
+
+- 데모 서비스
+- 공지사항
 
 문의 사항은 [이슈](https://github.com/ustraframework/ustraframework/issues)로 등록해 주시기 바랍니다.
 
-<!--
-- 공식 가이드 사이트 : http://guide.ustraframework.kro.kr/
--->
+
+## 공식 의존성 저장소 변경 안내
+
+GSITM 전사 자원 정책 변경으로 의존성 저장소를 변경할 예정입니다.
+
+현재는 임시 저장소를 제공하고 있으니 참고하기 바랍니다.
+
+- 메이븐 레파지토리 : http://repo.ustraframework.kro.kr/repository/maven-public/
+- NPM 레지스트리 : http://repo.ustraframework.kro.kr/repository/npm-public/
+
 
 ## Release Note (Java)
 
