@@ -2,7 +2,9 @@
 
 GSITM에서 운영 중인 U.STRA Framework 공식 Release Repository 입니다.
 
-## 공식 가이드 안내
+## 공지 사항
+
+### 공식 가이드 안내
 
 공식 가이드 사이트 : http://guide.ustraframework.kro.kr/
 
@@ -14,7 +16,7 @@ GSITM에서 운영 중인 U.STRA Framework 공식 Release Repository 입니다.
 문의 사항은 [이슈](https://github.com/ustraframework/ustraframework/issues)로 등록해 주시기 바랍니다.
 
 
-## 공식 의존성 저장소 변경 안내
+### 공식 의존성 저장소 변경 안내
 
 GSITM 전사 자원 정책 변경으로 의존성 저장소를 변경할 예정입니다.
 
