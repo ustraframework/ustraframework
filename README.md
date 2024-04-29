@@ -94,11 +94,66 @@ COMMENT ON COLUMN USTRA_IFS.LMT_YN IS '제한_여부';
 
 ## Release Note (Node)
 
-### 2.0.35-stable (2021/10/6)
+### 3.1.0-stable (2024/04/04)
 
-백오피스 엑셀 다운로드 페이징 동기화 처리
+U.STRA Node Framework 3.1은 2024년 4월 4일에 릴리즈 되었습니다.
 
-UrlBuiler 기능 추가
+3.1 버전에는 다음과 같은 변경 사항이 적용됩니다.
+
+#### 기능 개선
+
+- Wijmo 라이선스 등록 기능 개선
+- Wijmo 기반 날짜 입력 컴포넌트의 입력 방식 개선
+- 권한 관리 / 권한 사용 기간 설정 개선
+- Wijmo 기반 IP 입력 컴포넌트의 입력 방식 개선
+
+#### 패치
+
+- 3.0.3-stable에서 발생된 아래 오류를 해결할때, package.json 내에 uuid 패키지를 resolutions에 작성하지 않아도 정상동작 되도록 개선
+    
+    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/56a9912f-f444-4027-9aca-64d035b129d1/95f47c20-f5e1-4519-acaf-abadfec4b46a/Untitled.png)
+    
+    ```json
+    {
+    	"resolutions": {
+    		"uuid": "3.4.0"
+    	}
+    }
+    ```
+    
+
+#### 업그레이드 방법
+
+1. 업그레이드시에 패키지 초기화 작업이 필요하다. 
+    - lock파일 제거
+        - 프로젝트에서 활용되는 yarn.lock 파일을 제거한다.
+    - node_modules 제거
+        - 프로젝트에서 활용되는 node_modules 전체를 삭제한다.
+2. 프로젝트내에 활용되는 package.json내에 `@ustra`접두어 가 들어간 패키지의 버전을 수정한다. 
+    - 확인된 패키지 우측 버전 작성란 내용을 활용할 버전으로 수정한다.
+        
+        ```json
+        {
+          "dependencies": {
+            "@ustra/nuxt": "3.1.0-stable",
+            /* @ustra로 시작되는 패키지 전체 버전을 수정한다. */
+          },
+        }
+        ```
+        
+3. 프로젝트 환경에 맞추어 install 작업을 진행한다. 
+    
+    ```json
+    yarn install
+    ```
+    
+4. 설치 후 생성되는 yarn.lock  파일내에 `@ustra` 를 찾아 정상 설치되었는지 확인한다. 
+    
+    ```json
+    예) yarn.lock 
+    "@ustra/core@3.1.0-stable":
+      version "3.1.0-stable"
+    ```
 
 
 ## Release Note (Nexacro)
