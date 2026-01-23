@@ -6,7 +6,7 @@ GSITM에서 운영 중인 U.STRA Framework 공식 Release Repository 입니다.
 
 ### 공식 가이드 안내
 
-공식 가이드 사이트 : https://guide.ustraframework.kro.kr/
+공식 가이드 사이트 : https://www.ustra.io/
 
 현재 공식 가이드는 일부 기능을 제한적으로 운영 중에 있습니다. 다음 기능이 제한됩니다.
 
